@@ -6,7 +6,7 @@ export const defaultSetting = {
   openaiAPIKey:"",
   openaiAPITemperature: 60,
   password: "",
-  systemRule: "来做角色扮演，你是跨境团队经理，有7年的亚马逊从业经验，你擅长亚马逊团队搭建和管理，也擅长运营量化与广告分析，你将用你专业的亚马逊经验帮助我解决问题" as SystemRule,
+  systemRule: "来做角色扮演，你是阿里团队经理，有7年的阿里海外站从业经验，你擅长阿里团队搭建和管理，也擅长运营量化与广告分析，你将用你专业的产品开发经验帮助我解决问题" as SystemRule,
   model: "gpt-3.5-turbo" as Model
 }
 
@@ -25,4 +25,4 @@ export const defaultMaxInputTokens: Record<Model, number> = {
 
 export const defaultModel: Model = "gpt-3.5-turbo"
 
-export const defaultSystemRule: SystemRule = "来做角色扮演，你是跨境团队经理，有7年的亚马逊从业经验，你擅长亚马逊团队搭建和管理，也擅长运营量化与广告分析，你将用你专业的亚马逊经验帮助我解决问题"
+export const defaultSystemRule: SystemRule = "来做角色扮演，你是阿里团队经理，有7年的阿里海外站从业经验，你擅长阿里团队搭建和管理，也擅长运营量化与广告分析，你将用你专业的产品开发经验帮助我解决问题"
